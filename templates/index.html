@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech to Text</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <h1>Speech to Text</h1>
+    
+    <button id="recordButton">Record</button>
+    
+    <div id="transcript">
+        <p id="transcript"></p>
+    </div>
+
+
+    <div id="signLanguageAnimation">
+        <h2>Sign Language Animation:</h2>
+        <div id="signLanguageAnimation"></div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>
